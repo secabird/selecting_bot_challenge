@@ -1,4 +1,5 @@
 # trality_challenge
+I run the code with Python 3.7.11
 
 - DataHandler class: we can use load_data_from_csv() or quickly load object with load_data_from_pkl()
 - AnomaliesHandler class: we can use clean_data() or quickly load object with load_good_data_from_pkl()
