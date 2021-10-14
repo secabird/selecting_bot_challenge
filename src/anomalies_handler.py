@@ -10,7 +10,6 @@ class AnomaliesHandler:
     def __init__(self, raw_data):
         self.raw_data = raw_data
         self.pkl_path = 'good_data.pkl'
-        # clean_data or load_good_data_from_pkl
         self.good_data = self.clean_data()
         
     def clean_data(self):

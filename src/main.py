@@ -9,7 +9,6 @@ def run():
     data_handler = DataHandler()
     anomalies_handler = AnomaliesHandler(data_handler.data)
 
-    # overview = performance.create_performance_stats(anomalies_handler.good_data) or performance.load_performance_stats()
     overview_perf = performance.create_performance_stats(anomalies_handler.good_data)
     overview_teersheet = OverviewTearsheet(overview_perf, title='Overview Performance')
     overview_teersheet.plot_results('overview_performance.pdf')

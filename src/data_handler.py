@@ -8,7 +8,6 @@ class DataHandler:
 
         self.csv_path = 'data.csv'
         self.pkl_path = 'data.pkl'
-        # load_data_from_csv or load_data_from_pkl
         self.data = self.load_data_from_csv()
 
     def load_data_from_csv(self):
