@@ -1,4 +1,4 @@
-# trality_challenge
+# selecting_bot_challenge
 I run the code with Python 3.7.11
 
 The results are:
